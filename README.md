@@ -39,3 +39,4 @@
 2. Traps / obstacles
 3. Start and end points
 4. Countdown timer
+5. Redesign sheets and spirits
