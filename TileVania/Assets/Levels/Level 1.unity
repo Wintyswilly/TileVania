@@ -128,12 +128,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5765335297433416384, guid: 5c10e8e63ce2b0245800d89ae0acd3bd, type: 3}
   m_PrefabInstance: {fileID: 5765335297383498639}
   m_PrefabAsset: {fileID: 0}
---- !u!60 &863205072 stripped
-PolygonCollider2D:
-  m_CorrespondingSourceObject: {fileID: 3888911832295422120, guid: e13b256963878f34db36808e57922867, type: 3}
-  m_PrefabInstance: {fileID: 1895701815}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1895701815
+--- !u!1001 &1962995105
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -186,7 +181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3888911832394247534, guid: e13b256963878f34db36808e57922867, type: 3}
       propertyPath: m_Name
-      value: Tilemap Grid
+      value: Tilemap Grid L1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e13b256963878f34db36808e57922867, type: 3}
@@ -257,7 +252,7 @@ PrefabInstance:
     - target: {fileID: 385907686, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
       propertyPath: m_BoundingShape2D
       value: 
-      objectReference: {fileID: 863205072}
+      objectReference: {fileID: 0}
     - target: {fileID: 385907688, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
       propertyPath: m_Follow
       value: 
@@ -278,6 +273,14 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 669832691}
+    - target: {fileID: 3450449341984933213, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -229.60199
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450449341984933213, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3450449342381113278, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 235.801
