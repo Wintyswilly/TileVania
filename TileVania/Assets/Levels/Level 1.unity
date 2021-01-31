@@ -190,6 +190,11 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 5765335297433416385, guid: 5c10e8e63ce2b0245800d89ae0acd3bd, type: 3}
   m_PrefabInstance: {fileID: 1173994520}
   m_PrefabAsset: {fileID: 0}
+--- !u!60 &1372194051 stripped
+PolygonCollider2D:
+  m_CorrespondingSourceObject: {fileID: 3888911832295422120, guid: e13b256963878f34db36808e57922867, type: 3}
+  m_PrefabInstance: {fileID: 1962995105}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1962995105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -322,7 +327,7 @@ PrefabInstance:
     - target: {fileID: 385907686, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
       propertyPath: m_BoundingShape2D
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1372194051}
     - target: {fileID: 385907688, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
       propertyPath: m_Follow
       value: 
@@ -335,6 +340,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -27.416994
       objectReference: {fileID: 0}
+    - target: {fileID: 661628316, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 1372194051}
     - target: {fileID: 661628318, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
       propertyPath: m_Follow
       value: 
@@ -363,17 +372,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -27.416994
       objectReference: {fileID: 0}
+    - target: {fileID: 1510661485, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 1372194051}
     - target: {fileID: 1510661487, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1173994521}
     - target: {fileID: 3450449341984933213, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -127.261856
+      value: -114.55012
       objectReference: {fileID: 0}
     - target: {fileID: 3450449341984933213, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -32.307713
+      value: -32.288692
       objectReference: {fileID: 0}
     - target: {fileID: 3450449341984933282, guid: 36946f0b82657ae4daf7a3f0c4ad1dab, type: 3}
       propertyPath: orthographic size
